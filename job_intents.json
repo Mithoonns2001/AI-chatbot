@@ -1,0 +1,147 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am sara", "My name is sara", "You can call me sara", "I am sara, my friends call me Sara", "Sara is my name"]
+     },
+     
+      {"tag": "Chairman",
+      "patterns": ["Who is the chairman of aicte", "Chairman name is", "Chairman of AICTE", "Tell me about SA", "What about SA", "What do you know about SA", "Tell me more about SA", "What can you tell me about South Africa", "Tell me about South Africa", "What about South Africa", "What do you know about South Africa", "Tell me more about South Africa"],
+      "responses": ["Anil Sahasrabudhe", "Anil Sahasrabudhe","Anil Sahasrabudhe"]
+      },
+      {"tag": "naac approved colleges",
+      "patterns": ["Grade list of NAAC ", "NAAC Grade of college in order"],
+      "responses": ["104 government colleges are accredited of which 35 colleges have C grade, 39 have B grade, as many as 13 colleges have B+, nine colleges have B++, seven colleges are A and one college is A+","104 government colleges are accredited of which 35 colleges have C grade, 39 have B grade, as many as 13 colleges have B+, nine colleges have B++, seven colleges are A and one college is A+"]
+      },
+      {"tag": "Approval",
+      "patterns": ["Where I can find the information related to Approval Process 2020-21?"],
+      "responses": ["Information related to Approval Process 2020-21 available on AICTE Website's Homepage>Quick Links>Approval Process 2020-21."]
+      },
+      {"tag": "login credentials",
+      "patterns": ["How can I get New User-id and password (login credentials) for AICTE Web portal","user id can get by"],
+      "responses": ["Please click on Sign Up link on AICTE Web-portal or go to link http://portal.aicteindia.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD  @https://aicte-india.org/bureaus/approval/ap_2020-21","Please click on Sign Up link on AICTE Web-portal or go to link http://portal.aicteindia.org/partnerportal_enu. User Manual for Obtaining USERNAME and PASSWORD  @https://aicte-india.org/bureaus/approval/ap_2020-21"]
+      },
+      {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+      {"tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+      },
+      {"tag": "options",
+      "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+      "responses": ["I can tell you about South Africa", "I can give you interesting facts about South Africa"]
+     },
+     {"tag": "forgotten password",
+      "patterns": ["I have forgotten password for logging in AICTE Web Portal. What is the procedure to recover this?", "process of forgotten password"],
+      "responses": ["Please refer User Manual for Forgotten Password available @ https://aicteindia.org/bureaus/approval/ap_2020-2","Please refer User Manual for Forgotten Password available @ https://aicteindia.org/bureaus/approval/ap_2020-2"]
+     },
+     {"tag": "Mandatoryfield",
+     "patterns": ["Is User Id field mandatory for 'Forgot Password' form?", "process of forgotten password"],
+     "responses": ["No, User Id is NOT mandatory. Only Permanent Institute Id is required for existing institute. In case of new institute (received Letter of Approval(LOA) in previous year) can enter Current Application Id."]
+    },
+    {"tag": "error message",
+     "patterns": ["When I try to login with Institute's Credentials, error message 'Invalid Username and Password' is displayed. What should I do?"],
+     "responses": ["Recheck the login credentials. Confirm whether someone else has logged in with the same credentials (Please note that per institute only ONE session is allowed. Hence, if someone tries for 2nd session then again invalid user name and password message will popup). If no session is live and still getting an invalid username and password message, then the password might be incorrect. In such cases, you can Request for forgot password."]
+    },
+    {"tag": "Approval process",
+    "patterns": ["How can I apply for Approval Process 2020-21 for our institute."],
+    "responses": ["Please login to AICTE Webportal using your institute's login credentials then click on Approval Process icon. Follow the instructions given in User Manuals/Videos and apply accordingly. For more information, please go through Approval Process Handbook 2020-21."]
+   },
+   {"tag": "Report generate",
+   "patterns": ["I am not able to generate report?"],
+   "responses": ["Please refer “User Manual for Report Generation” to generate Reports."]
+   },
+   {"tag": "Deleted details",
+   "patterns": ["How to delete old faculty details?"],
+   "responses": ["Faculty record cannot be deleted. Faculty can be marked as “Duplicate” or “Left the Institute” under HOI & Faculty Details tab."]
+   },
+   {"tag": "Aadhaar/Pan details",
+   "patterns": ["Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal?"],
+   "responses": ["Yes"]
+   },
+   {"tag": "Transfer record",
+   "patterns": ["How to transfer faculty record(individual) from one institute to another institute?"],
+   "responses": ["This facility is available under HOI & Faculty tab. Before transferring any individual faculty record from one institute to other institute, the faculty should be compulsorily marked as “left the institute” in the previous institute."]
+   },
+   {"tag": "Update/add faculty details",
+   "patterns": ["How to update/add the faculty details by import method?"],
+   "responses": ["Please follow the User Manual available @ https://aicte-india.org/bureaus/approval/ap_2020-21 for uploading faculty details by import method."]
+   },
+   {"tag": "Online Payment",
+   "patterns": ["I have made Online Payment but amount is not updated in portal."],
+   "responses": ["Generally, payment receipt gets updated immediately. In case, your payment receipt is not updated then click on View Transaction Button under Payment tab. Otherwise, it will get updated in 48 to 72 working hours (2 to 3 working days). In case it is not updated even after that, please raise grievance with transaction details (Transaction Id generated while making the payment) through Online Grievance Redressal form. Link is available on Approval Process 2020-21 page."]
+  },
+  {"tag": "Payment problem",
+   "patterns": ["I am not able to make payment because AICTE Website is not directing to Payment Gateway."],
+   "responses": ["Please check whether your application has been submitted successfully or not. If submitted, then allow Popups for AICTE Website through Web browser URL."]
+  },
+   {"tag": "issues related to portal and payment",
+   "patterns": ["Where to send the queries related to portal, payment and approval related issues for the Academic Year 2020-21?"],
+   "responses": ["Raise a Grievance via grievance form available at https://www.facilities.aicteindia.org/ApprovalProcess/apformEmail.php."]
+   },
+   {"tag": "Submitting issues",
+   "patterns": ["Our Institution was allotted a User ID last year as a new Institution. Some information was uploaded but the application could not be submitted at that time. Now I want to know that the same User ID can be used for approval process 2020-21."],
+   "responses": ["No, Institute need to apply afresh for getting login credentials. "]
+   },
+   {"tag": "Change details",
+   "patterns": ["We want to change details which are non-editable / read-only?"],
+   "responses": ["You may contact the Approval Bureau or Regional Office."]
+   },
+   {"tag": "reopen/update application",
+   "patterns": ["By mistake, I have submitted my application. Is it possible to reopen the application once again to update the few details?"],
+   "responses": ["If you have not created any payment record under Payment tab then you can re-open the submitted application only once by clicking on “re-open application” button available under Attachments and Submit tab."]
+   },
+   {"tag": "problem of receiving password",
+   "patterns": ["I have applied for forgot password but still I did not receive password on my registered email?"],
+   "responses": ["Institute need to submit the Affidavit-1 in the respective Regional Office. Regional Officer will flag the Affidavit Received against your request on web portal. Then password will be sent to the institute’s registered email id. Please check the Spam Folder also in your mailbox for forgot password email. In case of any issue, you may raise your grievance online by Grievance link available @ https://aicte-india.org/bureaus/approval/ap_2020-21"]
+   },
+   {"tag": "queries related to portal",
+   "patterns": ["Where to send the queries related to portal and approval related issues for the approval process 2021-22?"],
+   "responses": ["Institute are requested to raises queries only through online Grievance Redressal mechanism available on AICTE website under Approval Process 2021-22 quick links. No queries through email will be entertained."]
+   },
+   {"tag": "Courses",
+   "patterns": ["Does AICTE allow Arts and Science Courses in an Institution offering Engineering Courses?"],
+   "responses": ["Conduct of any other Academic Courses (Technical/Non-Technical):The Institutions may conduct Academic Courses (Technical/ Non-Technical of any other Regulatory Body) using the existing facilities in excess or by creating additional facilities as per the provisions laid down in the norms and standards of the respective Regulatory Body without affecting the quality of education prescribed by all the Regulatory Bodies after taking NOC from the Council following the procedure specified in the Approval Process Handbook. However, the Applicant has to make Material/ Non-Material amendment of the Building Plan, Site Plan, etc. approved by the concerned Competent Authority (if applicable) to suit the requirements of the new Programme/ Level. The total land required shall be the highest amongst the programs/ levels being offered by the Institute. However, institute shall have sufficient built up area to cover all the requirements of ALL the programs/ levels conducted as per the provisions of Approval Process Handbook. The institute shall extends to provide ample space for play-ground (owned or hired) facilities for indoor and outdoor sports for the students either in the Campus or through arrangements with other adjacent Institutions, Corporation grounds, private facilities, etc."]
+   },
+   {"tag": "Offering courses",
+   "patterns": ["Is it mandatory for an Institution offering Courses in Architecture and Pharmacy to obtain Approval from AICTE?"],
+   "responses": ["In compliance of the order dated 08.11.2019 passed by the Hon’ble Supreme Court of Indian CA No.364/ 2005, for the existing Institutions offering Courses in Architecture Programme, approval by the Council of Architecture (CoA) is mandatory and AICTE approval is NOT required."]
+   },
+   {"tag": "Technical institute",
+   "patterns": ["Whether establishment of a new Technical Institution to offer Courses in Engineering and Technology is permissible in Academic Year 2021-22?"],
+   "responses": ["The Council shall NOT grant approval to New Technical Institutions at the Diploma/ Under Graduate/ Post Graduate Level in Engineering and Technology in line with the recommendations of the Committee set up by AICTE to provide National Perspective Plan for Technical Programmes. However, establishment of New Technical Institutions in Engineering and Technology shall be permitted only in conditions as specified in Chapter I of APH 2021-22."]
+   },
+   {"tag": "Phone",
+   "patterns": ["Contact details of AICTE"],
+   "responses": ["011-26131498,011-29581299"]
+   },
+   {"tag": "Mailid",
+   "patterns": ["Mail Id for queries"],
+   "responses": ["helpdesk1@aicte-india.org","support@swayam.gov.in"]
+   },
+   {"tag": "Top 3 colleges",
+   "patterns": ["Top 3 colleges in aicte"],
+   "responses": ["IIT Madras, Chennai, Tamil Nadu ... , IIT Bombay, Mumbai. ... , IIT Kharagpur, Kharagpur..."]
+   },
+   {"tag": "Number of colleges ",
+   "patterns": ["How many colleges are there in India under AICTE"],
+   "responses": ["10,372"]
+   }
+   
+
+  ]
+}
+
+      
+
+
